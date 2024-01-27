@@ -23,7 +23,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: amazon-container
-        image: winfred008/amazon:latest
+        image: winfred008/amazon:
         ports:
         - containerPort: 3000
         
